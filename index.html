@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.min.css">
+</head>
+
+<body>
+    <div class="m-auto max-w-7xl px-5">
+        <div>
+            <div class="md:flex justify-between items-center mt-6">
+                <div class="flex justify-between md:block">
+                    <a href=""><img class="m-auto w-[100px]" src="img/img/Logo.png" alt=""></a>
+                    <i class="fa-solid fa-bars text-3xl mt-[5px]  block md:hidden"></i>
+                </div>
+                <ul class="md:flex justify-center py-4 hidden md:block">
+                    <li class="hover:text-red-500"><a href="" class="px-4">Home</a></li>
+                    <li class="hover:text-red-500"><a href="" class="px-4">Products</a></li>
+                    <li class="hover:text-red-500"><a href="" class="px-4">About Us</a></li>
+                    <li class="hover:text-red-500"><a href="" class="px-4">Contact Us</a></li>
+                </ul>
+                
+                <div class="md:flex justify-center hidden md:block">
+                    <a href=""><img class="mx-[5px]" src="img/img/Cart.png" alt=""></a>
+                    <button
+                        class="px-4 py-2 rounded-lg border-2 border-red-400 text-red-400 hover:bg-red-500 hover:text-white mx-[5px]">Sign
+                        in</button>
+                    <button
+                        class="px-3 py-2 rounded-lg border-2 border-red-400 text-red-400 hover:bg-red-500 hover:text-white">Sign
+                        Up</button>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="mt-[65px] flex grid md:grid-cols-2">
+                <div class="">
+                    <h2 class="text-[35px] font-bold">Big and Juicy Wagyu Beef
+                        Cheeseburger</h2>
+                    <h3 class="text-[30px] text-[#F54748] py-2 font-bold">$30</h3>
+                    <p class="py-2 w-auto">Pellentesque habitant morbi tristique senectus et netus et malesuada
+                        fames ac turpis egestas.Vestibulum tortor quam,feugiat vitae,ultricies
+                        eget,tempor sit amet,ante.Donec eu libero sit amet quam egestas
+                        semper.Aenean ultricies mi vitae est.Mauris placerat eleifend leo.</p>
+                    <form action="" class="flex h-[45px] w-auto">
+                        <input type="text" class="border-[1px] border px-4 py-4  rounded-md w-auto outline-0 md:w-[255px]"
+                            placeholder="Quantity">
+                        <button class="border-[1px] border-black rounded-md w-[115px] ml-4 text-white bg-black ">Add To
+                            Cart</button>
+                    </form>
+                </div>
+                <div>
+                    <img class="hidden md:block" src="img/img/Mask Group.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- <div>
+            <form action="" class="mt-[-75px] flex h-[45px]">
+                <input type="text" class="border-[1px] border px-6 py-4  rounded-md w-[255px] outline-0"
+                    placeholder="Quantity">
+                    <button class="border-[1px] border-black rounded-md w-[115px] ml-4 text-white bg-black">Add To Cart</button>
+            </form>
+        </div> -->
+
+        <div class="mt-[95px] font-bold">
+            <h3 class="text-[24px]">Related Products</h3>
+            <div class="grid  md:grid-cols-2 gap-6 py-8">
+                <div class="py-4">
+                    <img class="rounded-[10px] w-full" src="img/img/image1.png" alt="">
+                    <a class="text-[17px]" href="">Fresh and Healthy Mixed Mayonnaise Salad</a>
+                    <h3 class="text-[20px] text-[#F54748] py-2">$30</h3>
+                    <button class="border-[1px] border-black rounded-md w-full text-white bg-[#111928] leading-8">Add
+                        To Cart</button>
+                </div>
+                <div class="py-4">
+                    <img class=" rounded-[10px] w-full" src="img/img/image2.png" alt="">
+                    <a class="text-[17px]" href="">The Creamiest Creamy Chicken</a>
+                    <h3 class="text-[20px] text-[#F54748] py-2">$30</h3>
+                    <button class="border-[1px] border-black rounded-md w-full text-white bg-[#111928] leading-8">Add
+                        To Cart</button>
+                </div>
+                <div class="py-4">
+                    <img class=" rounded-[10px] w-full" src="img/img/image3.png" alt="">
+                    <a class="text-[17px]" href="">Fruity Pancake with Orange&Blueberry
+                    </a>
+                    <h3 class="text-[20px] text-[#F54748] py-2">$30</h3>
+                    <button class="border-[1px] border-black rounded-md w-full text-white bg-[#111928] leading-8">Add
+                        To Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="md:flex justify-between mt-6 border-t py-4 text-center">
+            <a href=""> <img class="m-auto py-4" src="img/img/Logo.png" alt=""></a>
+            <ul class="md:flex md:space-x-8 space-y-5 md:space-y-0 items-center">
+                <li><a class=" hover:text-red-500" href="" class="px-4">Home</a></li>
+                <li><a class=" hover:text-red-500" href="" class="px-4">Products</a></li>
+                <li><a class=" hover:text-red-500" href="" class="px-4">About Us</a></li>
+                <li><a class=" hover:text-red-500" href="" class="px-4">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
